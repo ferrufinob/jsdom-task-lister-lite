@@ -18,7 +18,7 @@ function manageListItems(e) {
   taskUL.appendChild(newItem);
   form.reset();
 
-  // create delete button
+  // create delete button.
   const deleteButton = document.createElement("button");
   newItem.appendChild(deleteButton);
   deleteButton.textContent = "Delete";
